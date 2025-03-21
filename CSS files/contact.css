@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap);
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 5px;
+
+}
+
+body {
+    background: linear-gradient(to bottom right, rgba(200, 150, 100, 0.9), rgba(240, 210, 180, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    outline: rgb(0, 0, 0) solid 2px;
+    position: fixed;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 100;
+}
+
+
+.header .logo {
+    font-family: "Playwrite IT Moderna", cursive;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-family: "Crimson Text", sans-serif;
+}
+
+.header .navbar a:hover {
+    color: rgb(198, 221, 139);
+}
+
+h1 {
+    font-family: "Playwrite IT Moderna", cursive;
+    text-align: center;
+}
+
+p {
+    font-family: "Crimson Text", sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: #000 solid 2px;
+    border-radius: 15px;
+}
+
+
+#name {
+    font-family: "Crimson Text", sans-serif; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#email {
+    font-family: "Crimson Text", sans-serif; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#item {
+    font-family: "Crimson Text", sans-serif; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#quality-of-service {
+    font-family: "Crimson Text", sans-serif; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#name {
+    font-family: "Crimson Text", sans-serif; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message {
+    font-family: "Crimson Text", sans-serif; 
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label[for="name"] {
+    font-family: "Crimson Text", sans-serif; 
+    font-size: 18px;
+    color: #000000;
+}
+
+label[for="email"] {
+    font-family: "Crimson Text", sans-serif; 
+    font-size: 18px;
+    color: #000000;
+}
+
+label[for="item"] {
+    font-family: "Crimson Text", sans-serif; 
+    font-size: 18px;
+    color: #000000;
+}
+    
+label[for="quality-of-service"] {
+    font-family: "Crimson Text", sans-serif; 
+    font-size: 18px;
+    color: #000000;
+}
+
+label[for="message"] {
+    font-family: "Crimson Text", sans-serif; 
+    font-size: 18px;
+    color: #000000;
+}
+    
+    
+    
+
+button {
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-family: "Playwrite IT Moderna", cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    text-decoration: none;
+    color: #f0e6d6;
+}
+
+button:hover{
+    background-color: rgba(200, 150, 100, 0.9);
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+footer section {
+    margin-right: 20px;
+}
+
+footer .all-rights-reserved {
+    font-size: 14px;
+}
+
+footer .contact-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer .contact-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    transition: transform 0.3s ease;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.2);
+}
+
+footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
